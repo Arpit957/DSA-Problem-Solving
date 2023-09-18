@@ -7,6 +7,7 @@ using namespace std;
 class graph
 {
 public:
+//can ve used by simple vectors
     unordered_map<int, list<int>> adj;
 
     void addedge(int u, int v, bool direction)
